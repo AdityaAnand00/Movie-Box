@@ -1,0 +1,26 @@
+1. landing page:  this is the palce where user will land whenever he clicks on the given link . 
+     => Navbar Section
+        ->Logo(left)
+        ->Button(right)
+    =>Body
+        ->title
+        ->subtitle 
+        ->description
+        ->INput feild with button 
+
+
+
+        step1 : we did we installed react router dom ,  in  our system . 
+                a> study about react-router-dom-npm
+                b> we are using this package to  create different different route  , 
+                c> route is diiferent url's  which keeps on changing  and where everytime user will  land into . 
+                d> so next is we will  import 3 important componentns from  this  "react -router - dom package" 
+                    import { BrowserRouter, Routes , Route } from "react-router-dom" ; 
+                        => BrowserRouter : it is the main level componennt,  it gives access to all features of react-router-dom  within  our project, it acts  as a link between react-router-dom and our local project in which we are going to use it .
+                        =>Routes :  routes are the features . 
+                        =>Route : route is also  the feature  of  this libraray  . it actually helps u navigate  around ypur various pages , existing within your app . 
+                        => <Route path='/'> </Route> -> this is the syntaxx to use route component , it takes a definetion of path . 
+
+        step 2> now will create the landidng page componennt . this landing page will contian various components . 
+                1> we created a file named  "container " , this file will contain all the different different pages ,
+                    one such page is our "landing page"  .                

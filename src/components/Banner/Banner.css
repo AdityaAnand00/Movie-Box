@@ -1,0 +1,54 @@
+.banner{
+    position: relative;
+    height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color : white ; 
+    z-index: -1;
+
+}
+.banner_contents{
+    width : fit-content ; 
+    padding-left : 40px;
+
+}
+.banner_contents > h3{
+    padding-top: 20px;
+    width: 400px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+
+
+}
+.banner_buttons{
+    display: flex ;
+    justify-content: space-between;
+    width : 140px ;
+    padding-top: 20px;
+}
+
+.banner_buttons >button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color : white  ; 
+    border: none;
+    outline: none;
+    background-color: rgb(93, 5, 216);
+    font-size: 00.8rem;
+   font-weight: bolder;
+}
+
+.banner_buttons > button:hover{
+    background-color: white  ! important;
+    color: black ! important;
+    cursor: pointer ! important;
+    transform :scale(1.2) ! important ; 
+}
+/* 
+h3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
